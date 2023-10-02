@@ -1,5 +1,7 @@
 // Import the create function from the "zustand" library for creating a state store.
 
+import { create } from "zustand";
+
 // Define the structure of a Todo item.
 export interface Todo {
   id: number;   // Unique identifier for the todo item.
